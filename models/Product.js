@@ -37,16 +37,16 @@ Product.init(
       len:[10],
       validate:{
         isNumeric :true
-      },
+      }
     },
-    catogery_id:{
+    catogery_id:
+    {
       type:DataTypes.INTEGER,
       references: {
-        model: "Catogery",
-        key: "id"
+        model: 'category',
+        key: 'id'
+      }
     }
-    }
-
   },
   {
     sequelize,
