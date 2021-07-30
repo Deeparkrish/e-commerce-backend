@@ -1,7 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
-const Product = require('./Product');
+// const product = require('./Product');
+// const tag = require('./Tag');
+
 
 class ProductTag extends Model {}
 
@@ -29,7 +31,6 @@ ProductTag.init(
         key: "id"
     }
     }
-
   },
   {
     sequelize,

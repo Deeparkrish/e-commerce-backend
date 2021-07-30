@@ -39,7 +39,7 @@ Product.init(
         isNumeric :true
       }
     },
-    catogery_id:
+    category_id:
     {
       type:DataTypes.INTEGER,
       references: {

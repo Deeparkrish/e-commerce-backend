@@ -7,9 +7,20 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
-  Product.findAll()
+  Product.findAll({
+    attributes: ['id','procut_name','price','stock'],
+    include :[
+    {
+      model :Category,
+      attributes :['category_name']
+    },
+    {
+      model :Tag,
+      attributes :['tag_name']
+    }]
+  })
   .then(
-    categoryData => res.json(categoryData)
+    dbProductData => res.json(dbProductData)
   )
   .catch(err=>{
     console.log(err);
@@ -21,13 +32,26 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
-  Product.findByPK(req.params.id)
-  .then(categoryData => {
-    if(!categoryData){
+  Product.findOne({
+  where:{
+  id:req.params.id},
+  attributes: ['id','procut_name','price','stock'],
+    include :{
+      model :Category,
+      attributes :['category_name']
+    },
+    include :[
+    {
+      model :Tag,
+      attributes :['tag_name']
+    }]
+})
+  .then(productData => {
+    if(!productData){
       res.status(404).json({message:'Id not found'});
       return;
     }
-    res.json(categoryData);
+    res.json(productData);
   })
   .catch(err =>{ console.log(err); 
       res.json(500).json(err);
@@ -38,14 +62,13 @@ router.get('/:id', (req, res) => {
 // create new product
 router.post('/', (req, res) => {
   /* req.body should look like this...*/
-  req.body =
+  Product.create(
     {
       product_name:req.body.product_name,
       price: req.body.price,
       stock: req.body.stock,
       tagIds: req.body.tagIds
-    }
-  Product.create(req.body)
+    })
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
@@ -74,6 +97,7 @@ router.put('/:id', (req, res) => {
     where: {
       id: req.params.id,
     },
+    
   })
     .then((product) => {
       // find all associated tags from ProductTag
