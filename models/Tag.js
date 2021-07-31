@@ -17,7 +17,7 @@ Tag.init(
      // tag _name
      tag_name :
      {
-       type: DataTypes.STRING,
+       type: DataTypes.STRING
      }
 
   },
@@ -26,7 +26,7 @@ Tag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'tag',
+    modelName: 'tag'
   }
 );
 
