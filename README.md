@@ -26,7 +26,7 @@
   * [License](#license)
   * [Process](#process)
   * [Technologies](#technologies)
-  * [Pseudocode](#pseudocode)
+  * [ModelAssociations](#modelassociations)
   * [MockUp](#mockup)
   * [ProjectDemo](#projectdemo)
   * [Testing](#testing)
@@ -68,8 +68,8 @@
    The MySQL2  and Sequelize packages to connect your Express.js API to a MySQL database and the dotenv package to use              environment variables to store sensitive data, like MySQL username, password, and database name.
 
 
-  ## Pseudocode
-  ![Webpage](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/img/flow-chart.jpeg)
+  ## ModelAssociations
+  ![Webpage](https://github.com/Deeparkrish/e-commerce-backend/blob/master/src/IMG_6043.jpeg)
 
   
   
