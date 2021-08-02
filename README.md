@@ -3,12 +3,17 @@
 
   <p align="left">
     <img src="https://img.shields.io/github/repo-size/deeparkrish/e-commerce-backend" />
-    <img src="https://img.shields.io/github/languages/top/deeparkrish/e-commerce-backend"  />
     <img src="https://img.shields.io/github/issues/deeparkrish/e-commerce-backend" />
-    <img src="https://img.shields.io/github/last-commit/deeparkrish/e-commerce-backend" >   
-    <img src="https://img.shields.io/github/languages/deeparkrish/e-commerce-backend" >   
+    <img src="https://img.shields.io/github/last-commit/deeparkrish/e-commerce-backend" >       
   </p>
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br />
+  <p align="left"> 
+     <img src="https://img.shields.io/github/languages/top/deeparkrish/e-commerce-backend"/>
+    <img src="https://img.shields.io/badge/MYSQL2-yellow" />
+    <img src="https://img.shields.io/badge/Sequelize-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-express-red" >
+    <img src="https://img.shields.io/badge/-dtoenv-lightgrey" />
+</p>
 
  ## Description
   A app that uses the latest technologies(MySQL2, Express, Sequelize) to build the back end for an e-commerce site.
@@ -21,7 +26,7 @@
   * [License](#license)
   * [Process](#process)
   * [Technologies](#technologies)
-  * [Pseudocode](#pseudocode)
+  * [ModelAssociations](#modelassociations)
   * [MockUp](#mockup)
   * [ProjectDemo](#projectdemo)
   * [Testing](#testing)
@@ -63,8 +68,8 @@
    The MySQL2  and Sequelize packages to connect your Express.js API to a MySQL database and the dotenv package to use              environment variables to store sensitive data, like MySQL username, password, and database name.
 
 
-  ## Pseudocode
-  ![Webpage](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/img/flow-chart.jpeg)
+  ## ModelAssociations
+  ![Webpage](https://github.com/Deeparkrish/e-commerce-backend/blob/master/src/IMG_6043.jpeg)
 
   
   
