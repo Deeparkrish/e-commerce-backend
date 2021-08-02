@@ -75,7 +75,9 @@
   
   
   ##  Mockup
-   ![Webpage](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/img/mockup1.png)
+   ![Webpage](https://github.com/Deeparkrish/e-commerce-backend/blob/master/src/Models.png)
+   ![Webpage](https://github.com/Deeparkrish/e-commerce-backend/blob/master/src/model%20-association.png)
+
 
   
   ##  ProjectDemo
