@@ -41,7 +41,7 @@
   ##  Usage
   ### To access SQL :   
     mysql -u root -p
-    Enter passwrd when promted
+    Enter passwrd when prompted
     source db/schema.sql
   ### To Seed database:
     npm run seed
