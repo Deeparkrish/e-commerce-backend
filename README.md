@@ -81,8 +81,8 @@
 
   
   ##  ProjectDemo
-  #### User input/HTML generation
-  [![Youtube](https://img.youtube.com/vi/f3hP1mj1puE/0.jpg)](https://www.youtube.com/embed/f3hP1mj1puE)
+  ####  GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
+  [![Youtube](https://img.youtube.com/vi/0iltgLj2zmY/0.jpg)](https://www.youtube.com/embed/0iltgLj2zmY)
 
 
   ## Testing
