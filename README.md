@@ -81,9 +81,18 @@
 
   
   ##  ProjectDemo
-  ####  GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
+  ####  GET routes to return all categories, all products, and all tags  and 
+  #### GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
   [![Youtube](https://img.youtube.com/vi/0iltgLj2zmY/0.jpg)](https://www.youtube.com/embed/0iltgLj2zmY)
+  
+  #### POST, PUT, and DELETE routes for Categories being tested in Insomnia Core:
+  [![Youtube](https://img.youtube.com/vi/4hAQZI_moqQ/0.jpg)](https://www.youtube.com/embed/4hAQZI_moqQ)
 
+  #### POST, PUT, and DELETE routes for Products being tested in Insomnia Core:
+  [![Youtube](https://img.youtube.com/vi/RLsQgekBpiA/0.jpg)](https://www.youtube.com/embed/RLsQgekBpiA)
+  
+  #### POST, PUT, and DELETE routes for Tags being tested in Insomnia Core:
+  [![Youtube](https://img.youtube.com/vi/4w3Z4ZfXE68/0.jpg)](https://www.youtube.com/embed/4w3Z4ZfXE68)
 
   ## Testing
   ####  CRUD operations can be testted using following applications:
